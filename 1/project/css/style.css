@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+html,body{
+    background-color: #fafafa;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 2.5rem;
+}
+/********************************************************/
+/* NAV SECTION
+/********************************************************/
+header{
+    background-color: #fafafa33;
+    backdrop-filter: blur(25px);
+    position: fixed !important;
+    z-index: 3000;
+}
+.navbar-brand{
+    font-size: 30px;
+    margin-right: 50px;
+}
+.nav-item{
+    padding: 0 5px;
+}
+
+.nav-link.active{
+    font-weight: bold;
+    border-bottom: 3px solid #ff0000;
+}
+
+/********************************************************/
+/* HOME SECTION
+/********************************************************/
+.home{
+    background-color: #fafafa;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5);
+}
+.animatedTyping{
+    color: hotpink;
+}
+
+
+.btnToNext{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: red;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: whitesmoke;
+    font-size: 25px;
+    transition-duration: 2s;
+    animation: animateBtnToNext linear 0.5s infinite;
+}
+.btnToNext:hover{
+    background: rgb(227,24,212);
+    background: linear-gradient(135deg, rgba(227,24,212,1) 20%, rgba(212,9,9,1) 83%);
+    animation: animateBtnToNext linear 1.3s infinite;
+}
+
+@keyframes animateBtnToNext {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
+.btnToNext2{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: red;
+    position: absolute;
+    top: 92vh;
+    right: 30px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+/********************************************************/
+/* ABOUT SECTION
+/********************************************************/
+.about{
+    background-color: #fafafa;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.about-right .me-img{
+    left: 130px;
+}
+.mystory-head h1{
+    /*color: red;*/
+    font-size: 60px !important;
+}
+.about ul{
+    list-style-type: square !important;
+}
+.about ul li{
+    padding-bottom: 3px;
+    color: red;
+}
+.quotes{
+    background-color: #f1f1f111;
+    backdrop-filter: blur(100px);
+    transition-duration: 1s;
+    color: red;
+}
+.quotes:hover, .seePackage:hover{
+    background: rgb(227,24,212);
+    background: linear-gradient(135deg, rgba(227,24,212,1) 20%, rgba(212,9,9,1) 83%);
+    color: white !important;
+    transform: scale(0.9);
+}
+.skill>div{
+    margin-bottom: 10px;
+}
+
+/********************************************************/
+/* WORK SECTION
+/********************************************************/
+.work{
+    background-color: #fafafa;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    z-index: -2;
+}
+.myClass img{
+    width: 450px;
+}
+.slick-current img{
+    width: 100%;
+}
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+    background: rgb(227,24,212);
+    background: linear-gradient(135deg, rgba(227,24,212,1) 20%, rgba(212,9,9,1) 85%);
+}
+[class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption{
+    background-color: #fafafa44 !important;
+    backdrop-filter: blur(55px);
+}
+.slick-dots{
+    right: 300px;
+}
+.slick-active:focus{
+    border: 0;
+    outline: 0;
+}
+.slick-current figure{
+    width: 600px;
+    transform: translate(50px,20px);
+    z-index: 1000;
+    -webkit-box-shadow: 10px -11px 18px -7px rgba(0,0,0,0.41);
+    -moz-box-shadow: 10px -11px 18px -7px rgba(0,0,0,0.41);
+    box-shadow: 10px -11px 18px -7px rgba(0,0,0,0.41);
+}
+.btn-cm{
+    border-radius: 40px;
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px 20px;
+    transition-duration: 3s;
+}
+.btn-cm:hover{
+    background: rgb(227,24,212);
+    background: linear-gradient(135deg, rgba(227,24,212,1) 20%, rgba(212,9,9,1) 83%);
+    color: white !important;
+}
+.btn-submit{
+    border-radius: 40px;
+    background-color: #fafafa33;
+    backdrop-filter: blur(15px);
+    color: black;
+    padding: 10px 20px;
+    transition-duration: 0.5s;
+}
+.btn-submit:hover{
+    background: rgb(227,24,212);
+    background: linear-gradient(135deg, rgba(227,24,212,1) 20%, rgba(212,9,9,1) 83%);
+    color: whitesmoke;
+}
+.form-control{
+    background-color: transparent !important;
+    border: 0px !important;
+    border-bottom: 1px solid gray !important;
+    border-radius: 0px !important;
+    margin: 5px 0;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0 !important;
+}
+.contact{
+    background-color: #fafafa;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    z-index: -2;
+}
+.name-form:focus, .mail-form:focus, .msg-form:focus{
+    padding: 15px 0;
+}

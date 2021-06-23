@@ -1,0 +1,183 @@
+@media screen and (max-width: 800px){
+    .navbar-light .navbar-toggler, .navbar-light .navbar-toggler:focus{
+        border: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .about-latest-img{
+        width: 250px !important;
+        transform: translateX(-40%) !important;
+    }
+    .me-img{
+        width: 230px;
+        height: 200px;
+    }
+    .quotes{
+        padding: 5px !important;
+        margin: 20px 5px 5px 5px !important;
+    }
+    .skillSvg{
+        width: 280px !important;
+    }
+
+    .slick-current figure{
+        transform: translate(400px,20px);
+    }
+    .slick-dots{
+        right: 0px;
+    }
+
+    .contact{
+        margin-top: 100px;
+    }
+    textarea.form-control{
+        min-height: 0px !important;
+        height: 150px !important;
+    }
+    .contact-firstCol{
+        height: 40% !important;
+    }
+    .contact-latestCol{
+        height: 57% !important;
+        align-items: baseline !important;
+    }
+
+}
+@media screen and (max-width: 450px){
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .head-innerRow{
+        flex-wrap: wrap-reverse;
+    }
+    .head-innerRow-lastCol{
+        align-items: flex-end !important;
+        display: flex;
+        justify-content: center;
+    }
+    .head-innerRow-lastCol-ImgDiv{
+        justify-content: center !important;
+        align-items: center !important;
+        height: 50% !important;
+    }
+    .head-innerRow-lastCol-ImgDiv img{
+        width: 250px;
+    }
+
+    .about1 .first-Col{
+        height: 100vh !important;
+    }
+    .about1 .last-Col{
+        height: 100vh !important;
+    }
+    .about1 .first-Col p{
+        width: 100% !important;
+    }
+
+    .about2 .first-Col div{
+        height: 50% !important;
+    }
+    .about3 .last-Col div{
+        transform: translate(90%,-100vh) !important;
+    }
+    .quotes{
+        padding: 10px 15px !important;
+    }
+    .workRow{
+        flex-wrap: wrap-reverse;
+    }
+    .myClass{
+        right: -50% !important;
+    }
+    .myClass img{
+        width: 300px;
+        margin-left: 150px;
+    }
+    .slick-current img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .slick-current{
+        width: 400px !important;
+    }
+    .slick-active .imghvr-flip-horiz{
+        background: transparent !important;
+    }
+    .slick-current .imghvr-flip-horiz{
+        background: rgb(227,24,212);
+        background: linear-gradient(135deg, rgba(227,24,212,1) 20%, rgba(212,9,9,1) 85%);
+    }
+    .workRow .first-Col > div{
+        margin-top: 20px;
+        width: 100% !important;
+    }
+    .workRow .last-Col > div{
+        align-items: flex-end !important;
+        height: 55vh !important;
+    }
+    .contact-firstCol{
+        height: 55% !important;
+    }
+    iframe{
+        width: 100%;
+    }
+    .contact-innerDiv{
+        margin-top: 10px !important;
+    }
+    .contact-innerDiv span{
+        font-size: 20px !important;
+    }
+    .contact-innerDiv p{
+        font-size: 14px !important;
+    }
+    .contact-innerDiv .info{
+        font-size: 16px !important;
+    }
+    .btn-submit{
+        font-size: 16px;
+    }
+    .contact-latestCol{
+        height: 65vh !important;
+    }
+}
+@media screen and (max-width: 380px){
+    .navbar{
+        padding: 0 !important;
+    }
+    .mystory-head h1{
+        font-size: 45px !important;
+    }
+    .about .first-Col{
+        align-items: flex-end !important;
+    }
+    .img-txt{
+        padding: 15px !important;
+    }
+    .about-latest-img{
+        width: 150px !important;
+        transform: translate(-40%, 100px) !important;
+    }
+    .imghvr-flip-horiz{
+        background: transparent !important;
+    }
+    .slick-current .imghvr-flip-horiz{
+        background: rgb(227,24,212);
+        background: linear-gradient(135deg, rgba(227,24,212,1) 20%, rgba(212,9,9,1) 85%);
+    }
+    .slick-current img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .slick-current{
+        width: 300px !important;
+    }
+    .slick-dots{
+        right: -50px;
+    }
+    .workRow .first-Col>.w-75{
+        margin-top: 0;
+    }
+}
